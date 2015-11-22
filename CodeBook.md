@@ -18,187 +18,174 @@ The tidy data file can be created by downloading the UCIHAR data set from the ab
 
 The analysis script combines the principle files of both the train and test sets into a single dataset, extracts the measurements related to mean and standard deviation, then condenses it into a tidy set organized by unique subject/activity pairs. [More info in README](https://github.com/barnerburner/TidyDataProject/blob/master/README.md).
 
-##Description of the variables in the tiny_data.txt file
-General description of the file including:
- - Dimensions of the dataset
- - Summary of the data
- - Variables present in the dataset
-
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
-
-###Variable 1 (repeat this section for all variables in the dataset)
-Short description of what the variable describes.
-
-Some information on the variable including:
- - Class of the variable
- - Unique values/levels of the variable
- - Unit of measurement (if no unit of measurement list this as well)
- - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
-
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
+##Description of the variables in the tidyset.txt file
+Tidyset.txt contains the output of the analysis script - 180 unique observations (subject/activity pairs) of 79 measured variables.
 
 ###"Subject"
 (double - unitless)
 Id numbers for study participants, ranging from 1 to 30.
 ###"Activity"
 (character)
-###"OverallTimeBodyAccelerometerMean()-X-axis"     
+The six classes of activities done by study participants.
+"LAYING"             "SITTING"            "STANDING"          
+"WALKING"            "WALKING_DOWNSTAIRS" "WALKING_UPSTAIRS" 
+#####"OverallTimeBodyAccelerometerMean()-X-axis"     
 (double)
-###"OverallTimeBodyAccelerometerMean()-Y-axis"
+#####"OverallTimeBodyAccelerometerMean()-Y-axis"
 (double)
-###"OverallTimeBodyAccelerometerMean()-Z-axis"
+#####"OverallTimeBodyAccelerometerMean()-Z-axis"
 (double)
-###"OverallTimeBodyAccelerometerStandardDeviation()-X-axis"
+#####"OverallTimeBodyAccelerometerStandardDeviation()-X-axis"
 (double)
-###"OverallTimeBodyAccelerometerStandardDeviation()-Y-axis"
+#####"OverallTimeBodyAccelerometerStandardDeviation()-Y-axis"
 (double)
-###"OverallTimeBodyAccelerometerStandardDeviation()-Z-axis" 
+#####"OverallTimeBodyAccelerometerStandardDeviation()-Z-axis" 
 (double)
-###"OverallTimeGravityAccelerometerMean()-X-axis"  
+#####"OverallTimeGravityAccelerometerMean()-X-axis"  
 (double)
-###"OverallTimeGravityAccelerometerMean()-Y-axis"                
+#####"OverallTimeGravityAccelerometerMean()-Y-axis"                
 (double)
-###"OverallTimeGravityAccelerometerMean()-Z-axis"                
+#####"OverallTimeGravityAccelerometerMean()-Z-axis"                
 (double)
-###"OverallTimeGravityAccelerometerStandardDeviation()-X-axis"   
+#####"OverallTimeGravityAccelerometerStandardDeviation()-X-axis"   
 (double)
-###"OverallTimeGravityAccelerometerStandardDeviation()-Y-axis"   
+#####"OverallTimeGravityAccelerometerStandardDeviation()-Y-axis"   
 (double)
-###"OverallTimeGravityAccelerometerStandardDeviation()-Z-axis"   
+#####"OverallTimeGravityAccelerometerStandardDeviation()-Z-axis"   
 (double)
-###"OverallTimeBodyAccelerometerJerkMean()-X-axis"               
+#####"OverallTimeBodyAccelerometerJerkMean()-X-axis"               
 (double)
-###"OverallTimeBodyAccelerometerJerkMean()-Y-axis"               
+#####"OverallTimeBodyAccelerometerJerkMean()-Y-axis"               
 (double)
-###"OverallTimeBodyAccelerometerJerkMean()-Z-axis"               
+#####"OverallTimeBodyAccelerometerJerkMean()-Z-axis"               
 (double)
-###"OverallTimeBodyAccelerometerJerkStandardDeviation()-X-axis"  
+#####"OverallTimeBodyAccelerometerJerkStandardDeviation()-X-axis"  
 (double)
-###"OverallTimeBodyAccelerometerJerkStandardDeviation()-Y-axis"  
+#####"OverallTimeBodyAccelerometerJerkStandardDeviation()-Y-axis"  
 (double)
-###"OverallTimeBodyAccelerometerJerkStandardDeviation()-Z-axis"  
+#####"OverallTimeBodyAccelerometerJerkStandardDeviation()-Z-axis"  
 (double)
-###"OverallTimeBodyGyroscopeMean()-X-axis"                       
+#####"OverallTimeBodyGyroscopeMean()-X-axis"                       
 (double)
-###"OverallTimeBodyGyroscopeMean()-Y-axis"                       
+#####"OverallTimeBodyGyroscopeMean()-Y-axis"                       
 (double)
-###"OverallTimeBodyGyroscopeMean()-Z-axis"                       
+#####"OverallTimeBodyGyroscopeMean()-Z-axis"                       
 (double)
-###"OverallTimeBodyGyroscopeStandardDeviation()-X-axis"          
+#####"OverallTimeBodyGyroscopeStandardDeviation()-X-axis"          
 (double)
-###"OverallTimeBodyGyroscopeStandardDeviation()-Y-axis"          
+#####"OverallTimeBodyGyroscopeStandardDeviation()-Y-axis"          
 (double)
-###"OverallTimeBodyGyroscopeStandardDeviation()-Z-axis"          
+#####"OverallTimeBodyGyroscopeStandardDeviation()-Z-axis"          
 (double)
-###"OverallTimeBodyGyroscopeJerkMean()-X-axis"                   
+#####"OverallTimeBodyGyroscopeJerkMean()-X-axis"                   
 (double)
-###"OverallTimeBodyGyroscopeJerkMean()-Y-axis"                   
+#####"OverallTimeBodyGyroscopeJerkMean()-Y-axis"                   
 (double)
-###"OverallTimeBodyGyroscopeJerkMean()-Z-axis"                   
+#####"OverallTimeBodyGyroscopeJerkMean()-Z-axis"                   
 (double)
-###"OverallTimeBodyGyroscopeJerkStandardDeviation()-X-axis"      
+#####"OverallTimeBodyGyroscopeJerkStandardDeviation()-X-axis"      
 (double)
-###"OverallTimeBodyGyroscopeJerkStandardDeviation()-Y-axis"      
+#####"OverallTimeBodyGyroscopeJerkStandardDeviation()-Y-axis"      
 (double)
-###"OverallTimeBodyGyroscopeJerkStandardDeviation()-Z-axis"      
+#####"OverallTimeBodyGyroscopeJerkStandardDeviation()-Z-axis"      
 (double)
-###"OverallTimeBodyAccelerometerMagnitudeMean()"                 
+#####"OverallTimeBodyAccelerometerMagnitudeMean()"                 
 (double)
-###"OverallTimeBodyAccelerometerMagnitudeStandardDeviation()"    
+#####"OverallTimeBodyAccelerometerMagnitudeStandardDeviation()"    
 (double)
-###"OverallTimeGravityAccelerometerMagnitudeMean()"              
+#####"OverallTimeGravityAccelerometerMagnitudeMean()"              
 (double)
-###"OverallTimeGravityAccelerometerMagnitudeStandardDeviation()" 
+#####"OverallTimeGravityAccelerometerMagnitudeStandardDeviation()" 
 (double)
-###"OverallTimeBodyAccelerometerJerkMagnitudeMean()"             
+#####"OverallTimeBodyAccelerometerJerkMagnitudeMean()"             
 (double)
-###"OverallTimeBodyAccelerometerJerkMagnitudeStandardDeviation()"
+#####"OverallTimeBodyAccelerometerJerkMagnitudeStandardDeviation()"
 (double)
-###"OverallTimeBodyGyroscopeMagnitudeMean()"                     
+#####"OverallTimeBodyGyroscopeMagnitudeMean()"                     
 (double)
-###"OverallTimeBodyGyroscopeMagnitudeStandardDeviation()"        
+#####"OverallTimeBodyGyroscopeMagnitudeStandardDeviation()"        
 (double)
-###"OverallTimeBodyGyroscopeJerkMagnitudeMean()"                 
+#####"OverallTimeBodyGyroscopeJerkMagnitudeMean()"                 
 (double)
-###"OverallTimeBodyGyroscopeJerkMagnitudeStandardDeviation()"    
+#####"OverallTimeBodyGyroscopeJerkMagnitudeStandardDeviation()"    
 (double)
-###"OverallFrequencyBodyAccelerometerMean()-X-axis"                   
+#####"OverallFrequencyBodyAccelerometerMean()-X-axis"                   
 (double)
-###"OverallFrequencyBodyAccelerometerMean()-Y-axis"                   
+#####"OverallFrequencyBodyAccelerometerMean()-Y-axis"                   
 (double)
-###"OverallFrequencyBodyAccelerometerMean()-Z-axis"                   
+#####"OverallFrequencyBodyAccelerometerMean()-Z-axis"                   
 (double)
-###"OverallFrequencyBodyAccelerometerStandardDeviation()-X-axis"      
+#####"OverallFrequencyBodyAccelerometerStandardDeviation()-X-axis"      
 (double)
-###"OverallFrequencyBodyAccelerometerStandardDeviation()-Y-axis"      
+#####"OverallFrequencyBodyAccelerometerStandardDeviation()-Y-axis"      
 (double)
-###"OverallFrequencyBodyAccelerometerStandardDeviation()-Z-axis"      
+#####"OverallFrequencyBodyAccelerometerStandardDeviation()-Z-axis"      
 (double)
-###"OverallFrequencyBodyAccelerometerMeanFrequency()-X-axis"          
+#####"OverallFrequencyBodyAccelerometerMeanFrequency()-X-axis"          
 (double)
-###"OverallFrequencyBodyAccelerometerMeanFrequency()-Y-axis"          
+#####"OverallFrequencyBodyAccelerometerMeanFrequency()-Y-axis"          
 (double)
-###"OverallFrequencyBodyAccelerometerMeanFrequency()-Z-axis"          
+#####"OverallFrequencyBodyAccelerometerMeanFrequency()-Z-axis"          
 (double)
-###"OverallFrequencyBodyAccelerometerJerkMean()-X-axis"               
+#####"OverallFrequencyBodyAccelerometerJerkMean()-X-axis"               
 (double)
-###"OverallFrequencyBodyAccelerometerJerkMean()-Y-axis"               
+#####"OverallFrequencyBodyAccelerometerJerkMean()-Y-axis"               
 (double)
-###"OverallFrequencyBodyAccelerometerJerkMean()-Z-axis"               
+#####"OverallFrequencyBodyAccelerometerJerkMean()-Z-axis"               
 (double)
-###"OverallFrequencyBodyAccelerometerJerkStandardDeviation()-X-axis"  
+#####"OverallFrequencyBodyAccelerometerJerkStandardDeviation()-X-axis"  
 (double)
-###"OverallFrequencyBodyAccelerometerJerkStandardDeviation()-Y-axis"  
+#####"OverallFrequencyBodyAccelerometerJerkStandardDeviation()-Y-axis"  
 (double)
-###"OverallFrequencyBodyAccelerometerJerkStandardDeviation()-Z-axis"  
+#####"OverallFrequencyBodyAccelerometerJerkStandardDeviation()-Z-axis"  
 (double)
-###"OverallFrequencyBodyAccelerometerJerkMeanFrequency()-X-axis"      
+#####"OverallFrequencyBodyAccelerometerJerkMeanFrequency()-X-axis"      
 (double)
-###"OverallFrequencyBodyAccelerometerJerkMeanFrequency()-Y-axis"      
+#####"OverallFrequencyBodyAccelerometerJerkMeanFrequency()-Y-axis"      
 (double)
-###"OverallFrequencyBodyAccelerometerJerkMeanFrequency()-Z-axis"      
+#####"OverallFrequencyBodyAccelerometerJerkMeanFrequency()-Z-axis"      
 (double)
-###"OverallFrequencyBodyGyroscopeMean()-X-axis"                       
+#####"OverallFrequencyBodyGyroscopeMean()-X-axis"                       
 (double)
-###"OverallFrequencyBodyGyroscopeMean()-Y-axis"                       
+#####"OverallFrequencyBodyGyroscopeMean()-Y-axis"                       
 (double)
-###"OverallFrequencyBodyGyroscopeMean()-Z-axis"                       
+#####"OverallFrequencyBodyGyroscopeMean()-Z-axis"                       
 (double)
-###"OverallFrequencyBodyGyroscopeStandardDeviation()-X-axis"          
+#####"OverallFrequencyBodyGyroscopeStandardDeviation()-X-axis"          
 (double)
-###"OverallFrequencyBodyGyroscopeStandardDeviation()-Y-axis"          
+#####"OverallFrequencyBodyGyroscopeStandardDeviation()-Y-axis"          
 (double)
-###"OverallFrequencyBodyGyroscopeStandardDeviation()-Z-axis"          
+#####"OverallFrequencyBodyGyroscopeStandardDeviation()-Z-axis"          
 (double)
-###"OverallFrequencyBodyGyroscopeMeanFrequency()-X-axis"              
+#####"OverallFrequencyBodyGyroscopeMeanFrequency()-X-axis"              
 (double)
-###"OverallFrequencyBodyGyroscopeMeanFrequency()-Y-axis"              
+#####"OverallFrequencyBodyGyroscopeMeanFrequency()-Y-axis"              
 (double)
-###"OverallFrequencyBodyGyroscopeMeanFrequency()-Z-axis"              
+#####"OverallFrequencyBodyGyroscopeMeanFrequency()-Z-axis"              
 (double)
-###"OverallFrequencyBodyAccelerometerMagnitudeMean()"                 
+#####"OverallFrequencyBodyAccelerometerMagnitudeMean()"                 
 (double)
-###"OverallFrequencyBodyAccelerometerMagnitudeStandardDeviation()"    
+#####"OverallFrequencyBodyAccelerometerMagnitudeStandardDeviation()"    
 (double)
-###"OverallFrequencyBodyAccelerometerMagnitudeMeanFrequency()"        
+#####"OverallFrequencyBodyAccelerometerMagnitudeMeanFrequency()"        
 (double)
-###"OverallFrequencyBodyAccelerometerJerkMagnitudeMean()"             
+#####"OverallFrequencyBodyAccelerometerJerkMagnitudeMean()"             
 (double)
-###"OverallFrequencyBodyAccelerometerJerkMagnitudeStandardDeviation()"
+#####"OverallFrequencyBodyAccelerometerJerkMagnitudeStandardDeviation()"
 (double)
-###"OverallFrequencyBodyAccelerometerJerkMagnitudeMeanFrequency()"    
+#####"OverallFrequencyBodyAccelerometerJerkMagnitudeMeanFrequency()"    
 (double)
-###"OverallFrequencyBodyGyroscopeMagnitudeMean()"                     
+#####"OverallFrequencyBodyGyroscopeMagnitudeMean()"                     
 (double)
-###"OverallFrequencyBodyGyroscopeMagnitudeStandardDeviation()"        
+#####"OverallFrequencyBodyGyroscopeMagnitudeStandardDeviation()"        
 (double)
-###"OverallFrequencyBodyGyroscopeMagnitudeMeanFrequency()"            
+#####"OverallFrequencyBodyGyroscopeMagnitudeMeanFrequency()"            
 (double)
-###"OverallFrequencyBodyGyroscopeJerkMagnitudeMean()"                 
+#####"OverallFrequencyBodyGyroscopeJerkMagnitudeMean()"                 
 (double)
-###"OverallFrequencyBodyGyroscopeJerkMagnitudeStandardDeviation()"    
+#####"OverallFrequencyBodyGyroscopeJerkMagnitudeStandardDeviation()"    
 (double)
-###"OverallFrequencyBodyGyroscopeJerkMagnitudeMeanFrequency()" 
+#####"OverallFrequencyBodyGyroscopeJerkMagnitudeMeanFrequency()" 
 (double)
 
 ##Sources
