@@ -5,11 +5,11 @@ date: "November 22, 2015"
 ---
 
 ## Project Description
-This project takes accelerometer data from multiple files in the Human Activity Recognition Using Smartphones Data set from UC Irvine, and turns a selection of it into a single, tidy output.
+This project takes accelerometer data from multiple files in UC Irvine's Human Activity Recognition Using Smartphones Data set (UCIHAR), and turns a selection of it into a single, tidy output.
 
 ##Study design and data processing
 
-The raw data was collected from Samsung Galaxy S smartphone accelerometers and subsequently processed into the text files used for this project.
+The raw data was collected from the embedded accelerometer and gyroscope in Samsung Galaxy S II smartphones, pre-processed, and turned into the text files used for this project.
 [More on the Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 ##Creating the tidy datafile
