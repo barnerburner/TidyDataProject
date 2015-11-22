@@ -1,30 +1,25 @@
 ---
-title: "Codebook template"
+title: "TidyDataProject Codebook"
 author: "Your name here"
-date: "The date here"
-output:
-  html_document:
-    keep_md: yes
+date: "November 22, 2015"
 ---
 
 ## Project Description
-Short description of the project
+This project takes accelerometer data from multiple files in the Human Activity Recognition Using Smartphones Data set from UC Irvine, and turns a selection of it into a single, tidy output.
 
 ##Study design and data processing
 
 ###Collection of the raw data
-Description of how the data was collected.
-
-###Notes on the original (raw) data 
-Some additional notes (if avaialble, otherwise you can leave this section out).
+The raw data was collected from Samsung Galaxy S smartphone accelerometers and subsequently processed into the text files used for this project.
+[More on the Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 ##Creating the tidy datafile
 
 ###Guide to create the tidy data file
-Description on how to create the tidy data file (1. download the data, ...)/
+The tidy data file can be created by downloading the UCIHAR data set from the above link, unzipping it into the working directory, and then running the run_analysis.R script from the same directory.
 
 ###Cleaning of the data
-Short, high-level description of what the cleaning script does. [link to the readme document that describes the code in greater detail]()
+The analysis script combines the principle files of both the train and test sets into a single dataset, extracts the measurements related to mean and standard deviation, then condenses it into a tidy set of unique subject/activity pairs. [More info in README](https://github.com/barnerburner/TidyDataProject/blob/master/README.md)
 
 ##Description of the variables in the tiny_data.txt file
 General description of the file including:
@@ -49,7 +44,4 @@ Some information on the variable including:
 If available, some additional notes on the variable not covered elsewehere. If no notes are present leave this section out.
 
 ##Sources
-Sources you used if any, otherise leave out.
-
-##Annex
-If you used any code in the codebook that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show again)
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
