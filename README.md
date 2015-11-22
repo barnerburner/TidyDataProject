@@ -1,7 +1,7 @@
 # TidyDataProject
 Getting and Cleaning Data Course Project
 ============
-The script run_analysis.R combines the principle files of subject/activity measurements from the UCIHAR dataset into a single set, retains just the measurements which are a mean or standard deviation, then creates a tidy, descriptive output based on unique combinations of subject/activity.
+The script [run_analysis.R](https://github.com/barnerburner/TidyDataProject/blob/master/run_analysis.R) combines the principle files of subject/activity measurements from the UCIHAR dataset into a single set, retains just the measurements which are a mean or standard deviation, then creates a tidy, descriptive output based on unique combinations of subject/activity.
 
 The script was intended to be as general as possible - no variables were created or used containing a predetermined outside constant that could be rendered inaccurate if a different set of measurements were chosen for a tidied output (no external assumptions about what the number of rows/column should be - all values are determined internally). However, more cases would need to be added for variable name expansion before the script should be used for measurements derived from functions besides mean and standard deviation.
 
