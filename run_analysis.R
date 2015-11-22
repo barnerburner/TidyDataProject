@@ -20,7 +20,7 @@ initdataset <- rbind(testset, trainset)
 ## without forgetting subject and activity columns were appended to front (1, 2, '+2' shift at the end)
 
 features <- read.table("~/UCIHAR/UCI HAR Dataset/features.txt", quote="\"", comment.char="")
-MeansandStds <- sort(c(grep(glob2rx("*mean()*"), features[[2]]), grep(glob2rx("*Mean*"), features[[2]]),grep(glob2rx("*std()*"), features[[2]])))
+MeansandStds <- sort(c(grep(glob2rx("*mean*"), features[[2]]), grep(glob2rx("*Mean*"), features[[2]]),grep(glob2rx("*std()*"), features[[2]])))
 
 paredset <- initdataset[,c(1,2,(MeansandStds+2))]
 
