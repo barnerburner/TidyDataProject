@@ -190,3 +190,4 @@ The six classes of activities done by study participants.
 
 ##Sources
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/
