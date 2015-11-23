@@ -42,9 +42,9 @@ for(n in MeansandStds)
   blip <- gsub("X", "X-axis", blip)
   blip <- gsub("Y", "Y-axis", blip)
   blip <- gsub("Z", "Z-axis", blip)
-  blip <- gsub("fB", "FB", blip)
-  blip <- gsub("tB", "TB", blip)
-  blip <- gsub("tG", "TG", blip)
+  blip <- gsub("fB", "FrequencyB", blip)
+  blip <- gsub("tB", "TimeB", blip)
+  blip <- gsub("tG", "TimeG", blip)
   
   blip <- paste("Overall", blip, sep = "")
   
