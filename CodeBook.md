@@ -19,7 +19,16 @@ The tidy data file can be created by downloading the UCIHAR data set from the ab
 The analysis script combines the principle files of both the train and test sets into a single dataset, extracts the measurements related to mean and standard deviation, then condenses it into a tidy set organized by unique subject/activity pairs. [More info in README](https://github.com/barnerburner/TidyDataProject/blob/master/README.md).
 
 ##Description of the variables in the tidyset.txt file
-Tidyset.txt contains the output of the analysis script (180x81) - 180 unique observations (subject/activity pairs) of 79 measured variables. All measured variables were normalized in the original UCIHAR data set and bounded within [-1, 1], so they are unitless.
+Tidyset.txt contains the output of the analysis script (180x81) - 180 unique observations (subject/activity pairs) of 79 measured variables.
+
+To view the output table:
+```
+address <- "https://s3.amazonaws.com/coursera-uploads/user-d4e34aa5bf937044773abc29/975118/asst-3/32047b20916f11e5a4654306ac580867.txt"
+address <- sub("^https", "http", address)
+data <- read.table(url(address), header = TRUE)
+View(data)
+```
+All measured variables were normalized in the original UCIHAR data set and bounded within [-1, 1], so they are unitless.
 
 ###"Subject"
 (class: double)
