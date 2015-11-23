@@ -16,7 +16,7 @@ The raw data was collected from the embedded accelerometer and gyroscope in Sams
 
 The tidy data file can be created by downloading the UCIHAR data set from the above link, unzipping it into the working directory, and then running the [run_analysis.R](https://github.com/barnerburner/TidyDataProject/blob/master/run_analysis.R) script from the same directory.
 
-The analysis script combines the principle files of both the train and test sets into a single dataset, extracts the measurements related to mean and standard deviation, then condenses it into a tidy set organized by unique subject/activity pairs. [More info in README](https://github.com/barnerburner/TidyDataProject/blob/master/README.md).
+The analysis script combines the principle files of both the train and test sets into a single dataset, extracts the measurements related to mean and standard deviation, then uses a split-apply-combine methodology to condense it into a tidy set organized by unique subject/activity pairs. [More info in README](https://github.com/barnerburner/TidyDataProject/blob/master/README.md).
 
 ##Description of the variables in the tidyset.txt file
 Tidyset.txt contains the output of the analysis script (180x81) - 180 unique observations (subject/activity pairs) of 79 measured variables.
