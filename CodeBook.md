@@ -122,11 +122,11 @@ The six classes of activities done by study participants.
 #####[46] "OverallFrequencyBodyAccelerometerStandardDeviation()-Z-axis"      
 (double) Overall mean standard deviation of the body's effect on the phone's accelerometer along the Z-axis over the frequency domain.
 #####[47] "OverallFrequencyBodyAccelerometerMeanFrequency()-X-axis"          
-(double) Overall mean frequency of the body's effect on the phone's accelerometer along the X-axis.
+(double - hertz) Overall mean frequency of the body's effect on the phone's accelerometer along the X-axis.
 #####[48] "OverallFrequencyBodyAccelerometerMeanFrequency()-Y-axis"          
-(double) Overall mean frequency of the body's effect on the phone's accelerometer along the Y-axis.
+(double - hertz) Overall mean frequency of the body's effect on the phone's accelerometer along the Y-axis.
 #####[49] "OverallFrequencyBodyAccelerometerMeanFrequency()-Z-axis"          
-(double) Overall mean frequency of the body's effect on the phone's accelerometer along the Z-axis.
+(double - hertz) Overall mean frequency of the body's effect on the phone's accelerometer along the Z-axis.
 #####[50] "OverallFrequencyBodyAccelerometerJerkMean()-X-axis"               
 (double) Overall mean of the body's jerk effect on the phone's accelerometer along the X-axis over the frequency domain.
 #####[51] "OverallFrequencyBodyAccelerometerJerkMean()-Y-axis"               
@@ -140,11 +140,11 @@ The six classes of activities done by study participants.
 #####[55] "OverallFrequencyBodyAccelerometerJerkStandardDeviation()-Z-axis"  
 (double) Overall mean standard deviation of the body's jerk effect on the phone's accelerometer along the Z-axis over the frequency domain.
 #####[56] "OverallFrequencyBodyAccelerometerJerkMeanFrequency()-X-axis"      
-(double) Overall mean frequency of the body's jerk effect on the phone's accelerometer along the X-axis.
+(double - hertz) Overall mean frequency of the body's jerk effect on the phone's accelerometer along the X-axis.
 #####[57] "OverallFrequencyBodyAccelerometerJerkMeanFrequency()-Y-axis"      
-(double) Overall mean frequency of the body's jerk effect on the phone's accelerometer along the Y-axis.
+(double - hertz) Overall mean frequency of the body's jerk effect on the phone's accelerometer along the Y-axis.
 #####[58] "OverallFrequencyBodyAccelerometerJerkMeanFrequency()-Z-axis"      
-(double) Overall mean frequency of the body's jerk effect on the phone's accelerometer along the Z-axis.
+(double - hertz) Overall mean frequency of the body's jerk effect on the phone's accelerometer along the Z-axis.
 #####[59] "OverallFrequencyBodyGyroscopeMean()-X-axis"                       
 (double) Overall mean of the body's effect on the phone's gyroscope along the X-axis over the frequency domain.
 #####[60] "OverallFrequencyBodyGyroscopeMean()-Y-axis"                       
@@ -158,35 +158,35 @@ The six classes of activities done by study participants.
 #####[64] "OverallFrequencyBodyGyroscopeStandardDeviation()-Z-axis"          
 (double) Overall mean standard deviation of the body's effect on the phone's gyroscope along the Z-axis over the frequency domain.
 #####[65] "OverallFrequencyBodyGyroscopeMeanFrequency()-X-axis"              
-(double) Overall mean frequency of the body's effect on the phone's gyroscope along the X-axis.
+(double - hertz) Overall mean frequency of the body's effect on the phone's gyroscope along the X-axis.
 #####[66] "OverallFrequencyBodyGyroscopeMeanFrequency()-Y-axis"              
-(double) Overall mean frequency of the body's effect on the phone's gyroscope along the Y-axis.
+(double - hertz) Overall mean frequency of the body's effect on the phone's gyroscope along the Y-axis.
 #####[67] "OverallFrequencyBodyGyroscopeMeanFrequency()-Z-axis"              
-(double) Overall mean frequency of the body's effect on the phone's gyroscope along the Z-axis.
+(double - hertz) Overall mean frequency of the body's effect on the phone's gyroscope along the Z-axis.
 #####[68] "OverallFrequencyBodyAccelerometerMagnitudeMean()"                 
 (double) Overall mean of the magnitude of the body's effect on the phone's accelerometer over the frequency domain.
 #####[69] "OverallFrequencyBodyAccelerometerMagnitudeStandardDeviation()"    
 (double) Overall mean standard deviation of the magnitude of the body's effect on the phone's accelerometer over the frequency domain.
 #####[70] "OverallFrequencyBodyAccelerometerMagnitudeMeanFrequency()"        
-(double) Overall mean frequency of the magnitude of the body's effect on the phone's accelerometer.
+(double - hertz) Overall mean frequency of the magnitude of the body's effect on the phone's accelerometer.
 #####[71] "OverallFrequencyBodyAccelerometerJerkMagnitudeMean()"             
 (double) Overall mean of the magnitude of the body's jerk effect on the phone's accelerometer over the frequency domain.
 #####[72] "OverallFrequencyBodyAccelerometerJerkMagnitudeStandardDeviation()"
 (double) Overall mean standard deviation of the magnitude of the body's jerk effect on the phone's accelerometer over the frequency domain.
 #####[73] "OverallFrequencyBodyAccelerometerJerkMagnitudeMeanFrequency()"    
-(double) Overall mean frequency of the magnitude of the body's jerk effect on the phone's accelerometer.
+(double - hertz) Overall mean frequency of the magnitude of the body's jerk effect on the phone's accelerometer.
 #####[74] "OverallFrequencyBodyGyroscopeMagnitudeMean()"                     
 (double) Overall mean of the magnitude of the body's effect on the phone's gyroscope over the frequency domain.
 #####[75] "OverallFrequencyBodyGyroscopeMagnitudeStandardDeviation()"        
 (double) Overall mean standard deviation of the magnitude of the body's effect on the phone's gyroscope over the frequency domain.
 #####[76] "OverallFrequencyBodyGyroscopeMagnitudeMeanFrequency()"            
-(double) Overall mean frequency of the magnitude of the body's effect on the phone's gyroscope.
+(double - hertz) Overall mean frequency of the magnitude of the body's effect on the phone's gyroscope.
 #####[77] "OverallFrequencyBodyGyroscopeJerkMagnitudeMean()"                 
 (double) Overall mean of the magnitude of the body's jerk effect on the phone's gyroscope over the frequency domain.
 #####[78] "OverallFrequencyBodyGyroscopeJerkMagnitudeStandardDeviation()"    
 (double) Overall mean standard deviation of the magnitude of the body's jerk effect on the phone's gyroscope over the frequency domain.
 #####[79] "OverallFrequencyBodyGyroscopeJerkMagnitudeMeanFrequency()" 
-(double) Overall mean frequency of the magnitude of the body's effect on the phone's gyroscope.
+(double - hertz) Overall mean frequency of the magnitude of the body's effect on the phone's gyroscope.
 
 ##Sources
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
