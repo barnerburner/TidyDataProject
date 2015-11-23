@@ -35,7 +35,7 @@ All measured variables were normalized in the original UCIHAR data set and bound
 Id numbers for study participants, ranging from 1 to 30.
 ###"Activity"
 (class: character)
-The six classes of activities done by study participants.
+The six types of activities done by study participants.
 "LAYING"             "SITTING"            "STANDING"          
 "WALKING"            "WALKING_DOWNSTAIRS" "WALKING_UPSTAIRS" 
 #####[1] "OverallTimeBodyAccelerometerMean()-X-axis"     
