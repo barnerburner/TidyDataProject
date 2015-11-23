@@ -1,6 +1,6 @@
 ---
 title: "TidyDataProject Codebook"
-author: "Your name here"
+author: "Brown Sugar"
 date: "November 22, 2015"
 ---
 
