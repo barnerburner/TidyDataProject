@@ -9,7 +9,7 @@ This project takes accelerometer data from multiple files in UC Irvine's Human A
 
 ##Study design and data processing
 
-The raw data was collected from the embedded accelerometer and gyroscope in Samsung Galaxy S II smartphones, pre-processed, and turned into the text files used for this project.
+The raw data was collected from the embedded accelerometer and gyroscope in Samsung Galaxy S II smartphones, pre-processed, normalized (so it is all unitless) and turned into the text files used for this project.
 [More on the Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 ##Creating the tidy datafile
@@ -28,7 +28,7 @@ address <- sub("^https", "http", address)
 data <- read.table(url(address), header = TRUE)
 View(data)
 ```
-All measured variables were normalized in the original UCIHAR data set and bounded within [-1, 1], so they are unitless.
+ALL MEASURED VARIABLES were normalized in the original UCIHAR data set and bounded within [-1, 1], so they are UNITLESS.
 
 ###"Subject"
 (class: double)
