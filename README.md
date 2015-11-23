@@ -6,3 +6,11 @@ The script [run_analysis.R](https://github.com/barnerburner/TidyDataProject/blob
 The script was intended to be as general as possible - no variables were created or used containing a predetermined outside constant that could be rendered inaccurate if a different set of measurements were chosen for a tidied output (no external assumptions about what the number of rows/column should be - all values are determined internally). However, more cases would need to be added for variable name expansion before the script should be used for measurements derived from functions besides mean and standard deviation.
 
 The only assumptions the script makes are that the tidyr and dplyr packages in R have already been installed (and just need to be loaded to run) and that the zipped UCI Har Dataset containing the full package of data and related supporting information in text files was simply unzipped into the working directory where the script will be run. No modification or rearranging of path names, or any other preprocessing should be necessary.
+
+To view the output table:
+```
+address <- "https://s3.amazonaws.com/coursera-uploads/user-d4e34aa5bf937044773abc29/975118/asst-3/32047b20916f11e5a4654306ac580867.txt"
+address <- sub("^https", "http", address)
+data <- read.table(url(address), header = TRUE)
+View(data)
+```
