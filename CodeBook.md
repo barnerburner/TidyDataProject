@@ -22,10 +22,10 @@ The analysis script combines the principle files of both the train and test sets
 Tidyset.txt contains the output of the analysis script (180x81) - 180 unique observations (subject/activity pairs) of 79 measured variables. All measured variables were normalized in the original UCIHAR data set and bounded within [-1, 1], so they are unitless.
 
 ###"Subject"
-(double)
+(class: double)
 Id numbers for study participants, ranging from 1 to 30.
 ###"Activity"
-(character)
+(class: character)
 The six classes of activities done by study participants.
 "LAYING"             "SITTING"            "STANDING"          
 "WALKING"            "WALKING_DOWNSTAIRS" "WALKING_UPSTAIRS" 
