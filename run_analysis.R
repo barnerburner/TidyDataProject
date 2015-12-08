@@ -74,3 +74,28 @@ tidyset <- tidyset[,c(col-1,col,1:(col-2))] %>% arrange(Subject, Activity)
 colnames(tidyset) <- varlabels
 
 write.table(tidyset, file = "tidyset.txt", row.names = FALSE)
+
+## Cleaner character matching from someone else?
+## extract_features <- grepl("mean|std", features)
+
+## Stripping () and what not?
+## data_header <- read.table("features.txt",col.names = c("id","variable"))
+## data_header$variable <- gsub(',','_',data_header$variable)
+## data_header$variable <- gsub("\\()","",data_header$variable)
+
+## More elegant labeling of activities from someone else
+##TidyData<-merge(activity_label, Data, by.x="V1",by.y= "activity")
+##TidyData$V1<-NULL
+##names(TidyData)[1]<-"activity"
+
+## WAY more efficient split-apply-combine from others. How'd I do this so dumb.
+##a<-ddply(TidyData, .(activity, subject), numcolwise(mean))
+##tidy_data   = dcast(melt_data, subject + Activity_Label ~ variable, mean)
+
+## Requiring packages
+##if (!require("data.table"))
+##  install.packages("data.table")
+##if (!require("reshape2")) 
+##  install.packages("reshape2")
+##require("data.table")
+##require("reshape2")
